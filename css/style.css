@@ -654,13 +654,10 @@ a {
         gap: 66px;
         margin-bottom: 0;
     }
-
- 
 }
 
 
 @media screen and (max-width: 540px) {
-
     .p-text {
         font-size: 15px;
     }
@@ -866,6 +863,11 @@ a {
 
     .main__inner-item-number {
         margin-top: 0;
+    }
+
+    .main__inner-item-info-add {
+        text-align: center;
+       margin: 0 auto 20px;
     }
 
     .swiper-wrapper {
