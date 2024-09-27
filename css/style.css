@@ -597,7 +597,7 @@ a {
     }
 
     .main__inner-images-block-book {
-        gap: 100px;
+        gap: 90px;
     }
 
     .main__inner-images-block-top-1 {
@@ -651,7 +651,7 @@ a {
     }
 
     .main__inner-images-block-book {
-        gap: 60px;
+        gap: 55px;
         margin-bottom: 0;
     }
 }
