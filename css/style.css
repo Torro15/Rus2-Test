@@ -85,7 +85,7 @@ a {
 .header {
     min-height: 650px;
     overflow: hidden;
-    background-image: url(/images/header-bg.png);
+    background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
     position: relative;
 }
@@ -256,27 +256,27 @@ a {
 }
 
 .main__inner-item-info-box-item.one {
-    background-image: url(/images/adobe-illustrator.png);
+    background-image: url(../images/adobe-illustrator.png);
 }
 
 .main__inner-item-info-box-item.two {
-    background-image: url(/images/pdf.png);
+    background-image: url(../images/pdf.png);
 }
 
 .main__inner-item-info-box-item.three {
-    background-image: url(/images/adobe-premier.png);
+    background-image: url(../images/adobe-premier.png);
 }
 
 .main__inner-item-info-box-item.four {
-    background-image: url(/images/adobe-photoshop.png);
+    background-image: url(../images/adobe-photoshop.png);
 }
 
 .main__inner-item-info-box-item.five {
-    background-image: url(/images/adobe-indesign.png);
+    background-image: url(../images/adobe-indesign.png);
 }
 
 .main__inner-item-info-box-item.six {
-    background-image: url(/images/adobe-after.png);
+    background-image: url(../images/adobe-after.png);
 }
 
 .main__inner-item-info-add {
@@ -407,7 +407,7 @@ a {
 }
 
 .aside__img-1 {
-    background-image: url(/images/aside-1.png);
+    background-image: url(../images/aside-1.png);
 }
 
 .aside__btn {
@@ -432,11 +432,11 @@ a {
 }
 
 .aside__img-2 {
-    background-image: url(/images/aside-2.png);
+    background-image: url(../images/aside-2.png);
 }
 
 .aside__img-3 {
-    background-image: url(/images/aside-3.png);
+    background-image: url(../images/aside-3.png);
 }
 
 .aside__btn span {
