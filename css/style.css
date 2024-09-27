@@ -828,6 +828,11 @@ a {
     .swiper-slide {
         height: 100%;
     }
+
+    .swiper-slide img {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
 }
 
 
