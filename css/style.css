@@ -607,7 +607,7 @@ a {
     .main__inner-images-block-top-2 {
         width: 100%;
         height: auto;
-        left: 140px;
+        left: 0;
         top: 116px;
     }
 
@@ -641,7 +641,7 @@ a {
 }
 
 @media screen and (max-width: 780px) {
-   
+
     .main__inner-images-block-top-1 {
         margin: 0 auto;
     }
@@ -867,7 +867,7 @@ a {
 
     .main__inner-item-info-add {
         text-align: center;
-       margin: 0 auto 20px;
+        margin: 0 auto 20px;
     }
 
     .swiper-wrapper {
