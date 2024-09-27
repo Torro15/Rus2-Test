@@ -516,6 +516,10 @@ a {
         font-size: 20px;
     }
 
+    .header {
+        background-position: top;
+    }
+
     .main__inner-item-info-box-item {
         width: 245px;
     }
@@ -535,7 +539,6 @@ a {
 
     .main__inner {
         width: 75%;
-
     }
 
     .main__inner-item.one {
