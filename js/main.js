@@ -25,6 +25,7 @@ var swiper = new Swiper(".mySwiper-1", {
     breakpoints: {
         320: { // Для экранов шириной шириной 320 и больше
             slidesPerView: 1,
+            spaceBetween: 10,
         },
 
         420: { // Для экранов шириной шириной 420 и больше
@@ -61,6 +62,7 @@ var swiper2 = new Swiper(".mySwiper-2", {
     breakpoints: {
         320: { // Для экранов шириной шириной 320 и больше
             slidesPerView: 1,
+            spaceBetween: 10,
         },
 
         420: { // Для экранов шириной шириной 420 и больше
