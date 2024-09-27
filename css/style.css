@@ -580,8 +580,13 @@ a {
         text-align: center;
     }
 
+    .main__wrapper {
+        flex-direction: column;
+    }
+
     .main__inner {
-        width: 72%;
+        width: 100%;
+        padding-left: 8px;
     }
 
     .main__inner-images {
@@ -611,7 +616,7 @@ a {
     .main__p-summary {
         width: 100%;
     }
-    
+
     .aside {
         width: 100%;
         height: auto;
@@ -633,15 +638,7 @@ a {
 }
 
 @media screen and (max-width: 780px) {
-    .main__wrapper {
-        flex-direction: column;
-    }
-
-    .main__inner {
-        width: 100%;
-        padding-left: 8px;
-    }
-
+   
     .main__inner-images-block-top-1 {
         margin: 0 auto;
     }
