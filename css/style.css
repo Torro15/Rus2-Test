@@ -1,20 +1,27 @@
-/* @font-face {
-    font-family: "Gotham Pro", sans-serif;
+
+@font-face {
+    font-family: "Gotham Pro";
     src: url('/fonts/gothampro.ttf') format(truetype);
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Gotham Pro", sans-serif;
+    font-family: "Gotham Pro";
     src: url('/fonts/gothampro_medium.ttf') format(truetype);
     font-weight: 500;
 }
 
 @font-face {
-    font-family: "Gotham Pro", sans-serif;
+    font-family: "Gotham Pro";
     src: url('/fonts/gothampro_bold.ttf') format(truetype);
     font-weight: 700;
-}  */
+}  
+
+@font-face {
+    font-family: "Abel";
+    src: url('/fonts/Abel-Regular.ttf') format(truetype);
+    font-weight: 400;
+}  
 
 html {
     box-sizing: border-box;
@@ -24,6 +31,13 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+:root {
+    --font-family: "Gotham Pro", sans-serif;
+    --second-family: "Abel", sans-serif;
+    --bg-color: #171422;
+    --text-color: #fff;
 }
 
 body {
@@ -66,13 +80,7 @@ a {
     margin: 0 auto;
 }
 
-:root {
-    --font-family: "Montserrat", sans-serif;
-    --second-family: "Abel", sans-serif;
-    ;
-    --bg-color: #171422;
-    --text-color: #fff;
-}
+
 
 .sidenav {
     display: none;
@@ -651,7 +659,7 @@ a {
     }
 
     .main__inner-images-block-book {
-        gap: 50px;
+        gap: 5px;
         margin-bottom: 0;
     }
 }
